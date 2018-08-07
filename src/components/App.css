@@ -1,0 +1,12 @@
+.about {
+  height: 250px;
+  display: table
+}
+.about p {
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+.hov:hover{
+  cursor: pointer;
+}
