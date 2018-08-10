@@ -30,7 +30,7 @@ class Data {
         return fetch(`http://api.tvmaze.com/shows/${id}`)
             .then(data => data.json())
             .then(data => {
-                return new ShowDetails(data.image.original, data.name, data.genres, data.summary.slice(3, -4))
+                return new ShowDetails(data.image.original, data.name, data.genres, data.summary)
             })
     }
     getShowCast(id) {

@@ -13,7 +13,7 @@ const ShowCastList = (props) => {
                     <div className="card">
                         <div className="card-image">
                             <img src={actor.img} />
-                            <span className="card-title">HELLO{actor.name}</span>
+                            <span className="card-title">{actor.name}</span>
                         </div>
                     </div>
                 </div>

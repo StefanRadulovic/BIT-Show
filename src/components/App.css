@@ -10,3 +10,11 @@
 .hov:hover{
   cursor: pointer;
 }
+.genres{ 
+  display: inline-block;
+  background-color: rgb(238,110,115);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0 10px;
+  color: white
+}
