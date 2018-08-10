@@ -14,7 +14,7 @@ const ShowDetails = (props) => {
             <div className="col s6 offset-s1">
                 <h3>{props.details.title}</h3>
                 <br />
-                
+
                 <p className="flow-text">{props.details.summary}</p>
             </div>
         </div>

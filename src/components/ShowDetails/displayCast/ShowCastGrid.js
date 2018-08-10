@@ -7,20 +7,20 @@ const ShowCastList = (props) => {
     }
     return (
         <div className="row">
-            
-                {actors.map((actor,i) => {
-                    return (<div className="col m2" key={i}>
-                        <div className="card">
-                            <div className="card-image">
-                                <img src={actor.img} />
-                                <span className="card-title">HELLO{actor.name}</span>
-                            </div>
-                        </div>
-                        </div>
-                    )
-                })}
 
-            </div>
+            {actors.map((actor, i) => {
+                return (<div className="col m2" key={i}>
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={actor.img} />
+                            <span className="card-title">HELLO{actor.name}</span>
+                        </div>
+                    </div>
+                </div>
+                )
+            })}
+
+        </div>
     );
 };
 

@@ -13,9 +13,9 @@ class ShowPage extends Component {
             filteredShows: [],
             isLoad: false
         }
-        
+
     }
-    searchHandler=(input)=> {
+    searchHandler = (input) => {
         const text = input.toLowerCase()
         const shows = this.state.shows
         const searchShows = shows.filter(show => {

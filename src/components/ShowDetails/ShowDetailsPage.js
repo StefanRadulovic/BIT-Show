@@ -17,7 +17,7 @@ class ShowDetailsPage extends React.Component {
     loadShowDetails() {
         let id = this.props.match.params.id;
         data.getShowDetails(id).then(data => {
-                        
+
             this.setState({
                 details: data
             })
@@ -26,13 +26,13 @@ class ShowDetailsPage extends React.Component {
     }
     loadShowCast() {
         let id = this.props.match.params.id;
-    data.getShowCast(id).then(data=>{
-        
-        
-        this.setState({
-            actors: data
+        data.getShowCast(id).then(data => {
+
+
+            this.setState({
+                actors: data
+            })
         })
-    })
 
     }
     componentDidMount() {
@@ -42,11 +42,11 @@ class ShowDetailsPage extends React.Component {
     }
 
     render() {
-        
+
         return (
             <Fragment>
-                <ShowDetails details={this.state.details}/>
-                <ShowCast actors={this.state.actors}/>
+                <ShowDetails details={this.state.details} />
+                <ShowCast actors={this.state.actors} />
             </ Fragment>
         )
 

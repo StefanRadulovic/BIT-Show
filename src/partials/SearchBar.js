@@ -15,13 +15,13 @@ class SearchBar extends Component {
         this.props.search(event.target.value);
     }
     render() {
-       
+
 
         return (
             <div className="col s12">
                 <div className="input-field col s12">
                     <i className="material-icons prefix">search</i>
-                    <input onChange={this.inputHandler} value={this.state.inputText} placeholder="Search shows"/>
+                    <input onChange={this.inputHandler} value={this.state.inputText} placeholder="Search shows" />
                 </div>
             </div>
         );

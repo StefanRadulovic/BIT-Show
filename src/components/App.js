@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Fragment>
         <Header />
-        <Main/>
+        <Main />
         <Footer />
       </Fragment>
     );
