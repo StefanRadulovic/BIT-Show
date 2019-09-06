@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, {Component, Fragment} from 'react';
 
 import Header from '../partials/Header';
 import Footer from '../partials/Footer';
@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
-        <Main />
-        <Footer />
+        <Header/>
+        <Main/>
+        <Footer/>
       </Fragment>
     );
   }
